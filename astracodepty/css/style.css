@@ -1,0 +1,301 @@
+*{		/* CSS Reset */
+	margin : 0;
+	padding : 0;
+}
+:root{
+    /* --Atributos de los colores */
+    --purple: #3b236b;
+    --white: #ffffff;
+    --red: #fe4439;
+    --cyan: #38b6ff;
+    --black: #1e1e1e;
+    --lightgray:  #DFE9F3;
+    --contentFont:'Scada', sans-serif;
+    --titleFont: 'Changa One', cursive;
+}
+body{
+    background-image: linear-gradient(to top, var(--lightgray) 0%, var(--white) 100% );
+    font-family:var(--contentFont);
+}
+h1,h2,h3{
+    font-family:var(--titleFont);
+}
+/* Sección de redes y datos */
+#top_section {
+    background-color: var(--white);
+    margin: 0 auto;
+  
+}
+
+#contact p,a{
+    color:var(--cyan);
+    text-decoration: none;
+    display:inline;
+    font-family: var(--contentFont);
+}
+.color-p{
+    background-color: var(--purple);
+}
+
+#social_networks{
+    text-align: right;
+}
+/* Fin de la sección */
+/*Sección del logo y el menú */
+#nav_section{
+    margin:0 auto;
+    background-color: var(--purple);
+}
+
+#logo img{
+    width: 15rem;
+}
+#nav_bar{
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+}
+
+#nav_bar a{
+    font-family: var(--contentFont);
+    color:var(--white);
+    font-size: 1.2rem;
+}
+#nav_bar a:hover{
+    background-color: var(--red);
+}
+/*Sección del Banner*/
+#banner_section{
+    background-image: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.shadow_banner {
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#banner_left{
+    padding: 2rem;
+    color: var(--white);
+    font-family: var(--contentFont);
+}
+#banner_right img{
+    width: 90%;
+    height: 400px;
+    float: right;
+    padding-right: 2rem;
+}
+
+/*Fin de la sección*/
+
+/*Sección del contenido */
+#container_info{
+    text-align: justify;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+}
+#icons{
+    height: 7rem;
+    width: 7rem;
+    background-color: var(--purple);
+    border-radius: 50%;
+    display:flex;
+    justify-content:space-evenly;
+    margin: 0 auto;
+    align-items: center;
+}
+#info_right h2,
+#info_left h2,
+#info_center h2{
+        color: var(--red);
+}
+#banner_bottom{
+    background-image: url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    height: 150px;
+    width: 100%;
+   
+}
+/* Fin de la sección */
+/*Sección de botón de contacto*/
+.contact_section
+{
+    background-color: var(--cyan);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1.3rem;
+}
+#contact_section_l{
+    text-align: justify;
+}
+.button_c{
+    background-color: var(--red);
+    color: var(--white);
+    height: 3rem;
+    padding-top: .5rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    text-align: center;
+    border: none;
+    display: block;
+}
+#banner_logos{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.banner_images{
+    width: 7rem;
+    margin-right: 0.5rem;
+}
+.footer{
+    background-color:var(--purple);
+    color:var(--white);
+}
+    
+.links ul{
+    list-style-type: none;
+}
+.links a{
+    color: var(--white);
+    transition: color .2s;
+} 
+.links li{
+    color: var(--white);
+    transition: color .2s;
+} 
+.links li:hover{
+    text-decoration:none;
+    color:#4180CB;
+}
+.links a:hover{
+    text-decoration:none;
+    color:#4180CB;
+}
+.about-company i{
+    font-size: 25px;
+}
+.about-company a{
+    color:white;
+    transition: color .2s;
+}
+.about-company i,a:hover{
+    color:#4180CB
+}
+
+.location i{
+      font-size: 18px;
+}
+.copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
+} 
+.logo_footer{
+    width: 40%;
+    height: 8rem;
+}
+#logo_footer img{
+    width: 15rem;
+    float:right;
+    display: block;
+    margin:0 auto;
+}
+#tutoria{
+    float: left;
+    width: 30%;
+    height: 15rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.guide a{
+    color: var(--red);
+}
+@media screen  and (max-width: 1024px) {
+    #banner_right img{
+        width: 110%;
+       
+    }
+   
+}
+@media screen  and (max-width: 812px) {
+    #banner_section{
+        
+        height: 300px;
+    
+    }
+    #banner_right img{
+        height: 300px;
+       
+    }
+}
+@media screen  and (max-width: 600px) {
+    #logo img{
+        width: 11rem;
+        display: block;
+        margin:0 auto;
+    }
+    #nav_bar{
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+    #banner_section{
+        
+        height: 250px;
+    
+    }
+    #banner_right img{
+        height: 250px;
+       
+    }
+    #banner_left h1,h2{
+        font-size: 1.4rem;
+    }
+    #tutoria{
+        width: 100%;
+    }
+}
+@media screen and (max-width:550px)
+{
+    .center_button{
+        margin:0 auto !important;
+    }
+    #social_networks{
+        text-align: center;
+    }
+    #banner_right img{
+        display: none;
+        
+     }
+     #info_center {
+       width: 100% !important;
+}
+#formulario {
+    width: 100% !important;
+}
+    
+   
+}
+@media screen and (max-width:480px)
+{
+   
+    #social_networks{
+        text-align: center;
+    }
+    
+}
