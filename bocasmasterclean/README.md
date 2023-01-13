@@ -25,4 +25,4 @@ Este proyecto se encuentra bajo la licencia Apache License 2.0. Para mayor infor
 ## Contacto
 Yessenia Martínez - @astracodepty - y.martinez2190@gmail.com
 
-Enlace al repositorio: https://github.com/ymartinez2190/websites/bocasmasterclean
+Enlace al repositorio: https://github.com/ymartinez2190/websites/tree/main/bocasmasterclean
