@@ -7,4 +7,5 @@
 - Contacto
 - Licencia
 
-## Acerca del proyecto
+## Sobre del proyecto
+
