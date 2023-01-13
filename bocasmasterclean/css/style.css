@@ -1,0 +1,266 @@
+*{		/* CSS Reset */
+	margin : 0;
+	padding : 0;
+}
+:root{
+    /* --Atributos de los colores */
+    --blue: #26466d;
+    --white: #ffffff;
+    --light-blue: #1e3ea3;
+    --yellow: #ffcc35;
+    --black: #1e1e1e;
+    --lightgray:  #DFE9F3;
+    --contentFont:'Scada', sans-serif;
+    --titleFont: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+header{
+    color:var(--white);
+}
+
+#top-section{
+    background-color: var(--blue);
+    font-family: var(--titleFont);
+}
+#logo{
+    padding:1rem;
+    padding-left: 2rem;
+}
+#logo-img{
+    width: 50%;
+}
+#contact-info p{
+    float: right;
+   padding-top: 2rem;
+   padding-right: 1rem;
+   text-shadow: 2px 2px var(--black);
+    margin:0 auto;
+}
+#web-content{
+   /*  background: rgb(255,255,255);
+    background-image: linear-gradient(to right bottom, #ffffff, #dad7ee, #b5b1dd, #8f8ccb, #6769ba, #505bae, #374ea3, #0e4297, #0c448d, #134583, #1d4678, #26466d); */
+    background-color: var(--light-blue);
+   
+}
+#texto h1{
+    font-family: var(--titleFont);
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px var(--black);
+    color: var(--white);
+}
+#texto p{
+    font-family: var(--contentFont);
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+
+#waves{
+    background-color: var(--light-blue);
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    height: 100px;
+    
+}
+
+#form-content{
+    background-color: var(--yellow);
+   
+    border-radius: 1rem;
+    padding: 1rem;
+    border:var(--black);
+}
+#formulario h4{
+    font-family: var(--titleFont);
+    text-transform: uppercase;
+    text-shadow: 2px 2px var(--black);
+    color: var(--white);
+    text-align: justify;
+}
+#footer-info{
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:400px;
+    width:500px;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+    width:500px;
+}
+@media screen  and (max-width: 1024px) {
+    
+    #contact-info p{
+        
+       padding-top: 1.5rem;
+       font-size: 0.8rem;
+    }
+    #texto h1{
+        font-size:2.5rem;
+    }
+    .mapouter{
+        height:300px;
+        width:400px;
+    }
+    .gmap_canvas{
+        overflow:hidden;
+        background:none!important;
+        height:300px;
+        width:400px;
+    }
+}
+@media screen  and (max-width: 812px) {
+    #logo-img{
+        width: 100%;
+    }
+    #contact-info p{
+        font-size: 0.7rem;
+     }
+     #imagen{
+        width: 50% !important;
+     }
+     #texto h1{
+        font-size:2rem;
+        text-align: justify;
+    }
+    #texto p{
+        font-size:1rem;
+        text-align: justify;
+    }
+    #formulario{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+    #services{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+    #bar{
+        visibility: hidden;
+        height: 1rem !important;
+     }
+     #location{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+}
+@media screen  and (max-width: 600px) {
+    #logo{
+        padding:1rem;
+    }
+    #logo-img{
+        width: 100%;
+    }
+    #contact-info p{
+        font-size: 0.6rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 0.9rem;
+        display: block;
+     }
+     #imagen{
+        width: 50% !important;
+     }
+     #texto h1{
+        font-size:2rem;
+        text-align: justify;
+    }
+    #texto p{
+        font-size:1rem;
+        text-align: justify;
+    }
+    #formulario{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+    #services{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+    #bar{
+        visibility: hidden;
+        height: 1rem !important;
+     }
+     #location{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width:480px)
+{
+    #logo{
+        padding:1rem;
+        padding-left: 1rem;
+    }
+    #logo-img{
+        width: 100%;
+    }
+    #contact-info p{
+        float:none;
+        padding-top: 1.5rem;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 0.5rem;
+        display: block;
+     }
+     #texto h1{
+        
+        font-size: 1.9rem;
+        text-align: justify;
+    }
+    #texto p{
+        
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .mapouter{
+        height:400px;
+        width:335px;
+    }
+    .gmap_canvas{
+        overflow:hidden;
+        background:none!important;
+        height:400px;
+        width:335px;
+    }
+    #bar{
+       visibility: hidden;
+       height: 1rem !important;
+    }
+    #imagen{
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+     
+}
+@media screen and (max-width:320px)
+{
+    .mapouter{
+        height:400px;
+        width:280px;
+    }
+    .gmap_canvas{
+        overflow:hidden;
+        background:none!important;
+        height:400px;
+        width:280px;
+    }
+  
+     
+}
