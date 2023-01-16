@@ -10,6 +10,7 @@
 ## Sobre del proyecto
 ![Screenshoot del sitio web](https://github.com/ymartinez2190/websites/blob/main/bocasmasterclean/img/Bocas-master-clean-website-complete-screenshot.png)
 La siguiente página web fue creada para el emprendimiento Bocas Master Clean para promover su negocio. Para ello, se diseñó como una landing page que contenga la información que el cliente pueda necesitar y un formulario de contacto. El maquetado fue realizado con BootStrap ver. 5.2 y las animaciones con la librería AnimateCSS.
+
 Demo: (https://bocasmastercleantp.netlify.app/)
 
 ## Lenguajes utilizados
