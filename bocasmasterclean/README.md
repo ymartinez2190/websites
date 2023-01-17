@@ -1,14 +1,16 @@
 # Bocas Master Clean (Sitio web)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9aa7e01-ab0d-4b47-abed-7094ed011877/deploy-status)](https://app.netlify.com/sites/bocasmastercleantp/deploys)
 ## Tabla de contenido
-- [Sobre el proyecto](https://github.com/ymartinez2190/websites/blob/main/bocasmasterclean/README.md#Sobre-el-proyecto)
-- Lenguajes utilizados
-- Requisitos
-- Licencia
-- Contacto
+- [Sobre el proyecto](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#sobre-del-proyecto)
+- [Lenguajes utilizados](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#lenguajes-utilizados)
+- [Requisitos](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#requisitos)
+- [Licencia](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#licencia)
+- [Contacto](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#contacto)
 
 ## Sobre del proyecto
-![Screenshoot del sitio web](https://github.com/ymartinez2190/websites/blob/main/bocasmasterclean/img/Bocas-master-clean-website-complete-screenshot.png)
+<p align="center">
+<img src="https://github.com/ymartinez2190/Bocas-master-clean-website/blob/main/img/Bocas-master-clean-website-complete-screenshot.png" width="700" height="650">
+</p>
 La siguiente página web fue creada para el emprendimiento Bocas Master Clean para promover su negocio. Para ello, se diseñó como una landing page que contenga la información que el cliente pueda necesitar y un formulario de contacto. El maquetado fue realizado con BootStrap ver. 5.2 y las animaciones con la librería AnimateCSS.
 
 Demo: (https://bocasmastercleantp.netlify.app/)
