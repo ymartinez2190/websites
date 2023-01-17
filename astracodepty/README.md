@@ -1,6 +1,8 @@
 # Astracode PTY (Sitio web)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4725b612-1156-4e9c-a7ba-542f3c5fd7a6/deploy-status)](https://app.netlify.com/sites/astracodepty/deploys)
 
+ **:red_circle:If you speak english, read the description in this file:** [click here!](README(ENG).md):red_circle: 
+
 ## Tabla de contenido
 - [Sobre el proyecto](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#sobre-del-proyecto)
 - [Lenguajes utilizados](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#lenguajes-utilizados)
