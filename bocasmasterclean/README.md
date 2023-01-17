@@ -11,9 +11,10 @@
 <p align="center">
 <img src="https://github.com/ymartinez2190/Bocas-master-clean-website/blob/main/img/Bocas-master-clean-website-complete-screenshot.png" width="700" height="650">
 </p>
-La siguiente página web fue creada para el emprendimiento Bocas Master Clean para promover su negocio. Para ello, se diseñó como una landing page que contenga la información que el cliente pueda necesitar y un formulario de contacto. El maquetado fue realizado con BootStrap ver. 5.2 y las animaciones con la librería AnimateCSS.
+La siguiente página web fue creada para el emprendimiento Bocas Master Clean (https://www.instagram.com/bocasmasterclean) para promover su negocio. Para ello, se diseñó como una landing page que contenga la información que el cliente pueda necesitar y un formulario de contacto. El maquetado fue realizado con BootStrap ver. 5.2 y las animaciones con la librería AnimateCSS.
 
-Demo: (https://bocasmastercleantp.netlify.app/)
+
+**Demo:** (https://bocasmastercleantp.netlify.app/)
 
 ## Lenguajes utilizados
  - HTML
