@@ -1,7 +1,7 @@
 # Bocas Master Clean (Sitio web)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9aa7e01-ab0d-4b47-abed-7094ed011877/deploy-status)](https://app.netlify.com/sites/bocasmastercleantp/deploys)
 
- **:red_circle:If you speak english, read my description in this file:** [click here!](README(ENG).md):red_circle: 
+ **:red_circle:If you speak english, read the description in this file:** [click here!](README(ENG).md):red_circle: 
 
 ## Tabla de contenido
 - [Sobre el proyecto](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#sobre-del-proyecto)
