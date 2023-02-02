@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preload" href="css/bootstrap.min.css" as="style">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--Fin de normalize.css-->
     <!--Cargando las tipografías del sitio web-->
@@ -23,6 +24,13 @@
     <link rel="preload" href="css/style.css" as="style">
     <!--Ruta del CSS-->
     <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript">
+        function enviaForm(){
+            var usuario = document.getElementById("Nombre_del_cliente").value;
+            alert("Gracias "+usuario+". Su información será procesada y pronto lo contactaremos. Gracias por confiar en nosotros.");
+            
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -58,7 +66,7 @@
             </div>
         </section>
     </header>
-   <main>
+   <main>     
        <section id="web-content" class="container-fluid row m-auto w-100 pt-3">
             <div id="imagen" class="col-sm-3 col-md-3 animate__animated animate__slideInLeft">
                 <img src="img/turtle-vacuum-transparent.png" id="turtle-image" class="w-100"/>
@@ -84,31 +92,36 @@
                         <div class="row w-100">
                           <div class="campo col-md-6">
                               <label class="form-label p-1">Nombre</label>
-                              <input class="form-control" type="text" placeholder="Tu Nombre">
+                              <input class="form-control" type="text" name="Nombre_del_cliente" placeholder="Tu Nombre" id="Nombre_del_cliente">
                           </div>
                           <div class="campo col-md-6">
                               <label class="form-label p-1">Teléfono</label>
-                              <input class="form-control" type="tel" placeholder="Tu Teléfono">
+                              <input class="form-control" type="tel" name="Teléfono" placeholder="Tu Teléfono">
                           </div>
                         </div>
                         <div class="row w-100">
                           <div class="campo col-md-10">
                               <label class="form-label p-1">Correo</label>
-                              <input class="form-control" type="email" placeholder="Tu Email">
+                              <input class="form-control" type="email" name="email"placeholder="Tu Email">
                           </div>
                         </div>
                         <div class="row w-100">
                           <div class="campo col-md-12">
                               <label class="form-label p-1">Mensaje</label>
-                              <textarea class="form-control"></textarea>
+                              <textarea class="form-control" name="Mensaje"></textarea>
                           </div>
                         </div>
                         <div class="row w-100 p-1">
                           <div class="col-md-12 center_button text-end">
-                              <input class="btn btn-primary bg.bg-primary center_button" type="submit" value="Enviar">
+                              <input class="btn btn-primary bg.bg-primary center_button" type="submit" onclick="enviaForm();" value="Enviar" >
                           </div>
                         </div>
                     </fieldset>
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_subject" value="Nueva solicitud para servicio de limpieza">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://bocasmastercleantp.netlify.app">
                 </form>
             </div>
          </section>
@@ -149,7 +162,9 @@
             <p>© 2023 Bocas Master Clean - Todos los derechos reservados</p>
             <hr class="border border-2 border-warning opacity-100 w-25 m-auto color mb-3">
         </div>
-
+        <a href="https://api.whatsapp.com/send?phone=50766000000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20limpieza%20." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
     </footer>
 </body>
 </html>
