@@ -26,6 +26,7 @@ La siguiente página web fue creada para el emprendimiento Bocas Master Clean (h
 Para la correcta visualización de estos archivos, requiere de:
 - BootStrap ver. 5.2
 - Librería AnimateCSS
+- FormSubmit (API) (http://formsubmit.co/)
 
 ## Licencia
 Este proyecto se encuentra bajo la licencia Apache License 2.0. Para mayor información, lea el archivo LICENSE.txt
