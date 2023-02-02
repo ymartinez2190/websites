@@ -11,27 +11,27 @@
 - [License](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#licencia)
 - [Contact](https://github.com/ymartinez2190/websites/edit/main/bocasmasterclean/README.md#contacto)
 
-## Sobre del proyecto
+## About the project
 <p align="center">
 <img src="https://github.com/ymartinez2190/Bocas-master-clean-website/blob/main/img/Bocas-master-clean-website-complete-screenshot.png" width="700" height="650">
 </p>
-La siguiente página web fue creada para el emprendimiento Bocas Master Clean (https://www.instagram.com/bocasmasterclean) para promover su negocio. Para ello, se diseñó como una landing page que contenga la información que el cliente pueda necesitar y un formulario de contacto. El maquetado fue realizado con BootStrap ver. 5.2 y las animaciones con la librería AnimateCSS.
+The following web page was created for the Bocas Master Clean venture (https://www.instagram.com/bocasmasterclean) to promote their business. For this, it was designed as a landing page that contains the information that the client may need and a contact form. The layout was done with BootStrap ver. 5.2 and animations with the AnimateCSS library.
 
 **Demo:** (https://bocasmastercleantp.netlify.app/)
 
-## Lenguajes utilizados
+## Programming languages
  - HTML
  - CSS3
 
-## Requisitos
-Para la correcta visualización de estos archivos, requiere de:
+## Requeriments
+For the correct visualization of these files, it requires:
 - BootStrap ver. 5.2
 - Librería AnimateCSS
 
-## Licencia
-Este proyecto se encuentra bajo la licencia Apache License 2.0. Para mayor información, lea el archivo LICENSE.txt
+## License
+This project is licensed under the Apache License 2.0. For more information, read the LICENSE.txt file.
 
-## Contacto
+## Contact
 Yessenia Martínez - @astracodepty - y.martinez2190@gmail.com
 
-Enlace al repositorio: https://github.com/ymartinez2190/websites/tree/main/bocasmasterclean
+Repository link: https://github.com/ymartinez2190/websites/tree/main/bocasmasterclean
